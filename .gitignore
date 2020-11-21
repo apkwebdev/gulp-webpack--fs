@@ -1,0 +1,24 @@
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+.idea
+.vscode
+.github
+.env
+ehthumbs.db
+Thumbs.db
+node_modules
+yarn.lock
+package-lock.json
+
+*.sublime*
+*.log*
+
+# The directory for interchanging with library of modules and content.
+\#interchange/**/*
+!#interchange/interchange.md
+
+# Destination directory of a project. Default not ignore.
+#docs/

@@ -1,0 +1,30 @@
+@import "../../styles/_presets.scss";
+
+.main-404 {
+  
+  &__title {
+    @include fst(font-size, 27px);
+    font-weight: 700;
+    text-align: center;
+    @include fst(margin-top, 0px);
+    @include fst(margin-bottom, 16px);
+  }
+}
+
+.video-wrap { 
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.zoom-in .video-wrap { @include ie { max-width: 75vw; }; margin: 0 auto; }
+
+.info_main-404__video {
+  width: 100%;
+}
+
+.zoom-in .info_main-404__video { max-height: 85vh; }
+
+/****************************************************************************/
+/***********************===  mediaqueries starting  ===**********************/
+/***********************                               **********************/
